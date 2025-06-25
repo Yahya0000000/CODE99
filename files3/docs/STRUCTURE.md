@@ -1,0 +1,112 @@
+# شجرة هيكل مشروع منصة الذكاء الاصطناعي
+
+```
+apps/
+  web/
+    pages/
+      ide/
+        index.tsx
+      auth/
+        login.tsx
+      projects/
+        index.tsx
+        [id].tsx
+        new.tsx
+        details/
+          [id].tsx
+        team.tsx
+        activity.tsx
+        advanced-settings.tsx
+        export-github.tsx
+        ai-logs.tsx
+        code-review.tsx
+        releases.tsx
+        compare-versions.tsx
+        restore-version.tsx
+        restore-history.tsx
+        team-permissions.tsx
+        comments.tsx
+        notifications.tsx
+        activity-log.tsx
+        notification-settings.tsx
+        audit-log.tsx   <-- صفحة سجل التدقيق والأمان
+      import/
+        github.tsx
+      prompts/
+        index.tsx
+      settings/
+        index.tsx
+      account/
+        index.tsx
+      help/
+        index.tsx
+    components/
+      Sidebar.tsx   <-- رابط سجل التدقيق والأمان
+      ProjectList.tsx
+      MainPromptBox.tsx
+      PromptBox.tsx
+      PromptHistoryList.tsx
+      NotificationsPanel.tsx
+      HelpPanel.tsx
+      TeamPanel.tsx
+      ActivityPanel.tsx
+      ProjectAdvancedSettingsPanel.tsx
+      ProjectExportGithubPanel.tsx
+      ProjectAILogsPanel.tsx
+      ProjectCodeReviewPanel.tsx
+      ProjectReleasesPanel.tsx
+      ProjectCompareVersionsPanel.tsx
+      ProjectRestoreVersionPanel.tsx
+      ProjectRestoreHistoryPanel.tsx
+      ProjectTeamPermissionsPanel.tsx
+      ProjectCommentsPanel.tsx
+      ProjectNotificationsPanel.tsx
+      ProjectActivityLogPanel.tsx
+      ProjectNotificationSettingsPanel.tsx
+      ProjectAuditLogPanel.tsx   <-- جديد
+      SettingsPanel.tsx
+      AccountPanel.tsx
+      ProjectTabs.tsx
+      CodeEditor.tsx
+      DesignEditor.tsx
+      PreviewPanel.tsx
+      ProjectSettingsPanel.tsx
+      ProjectDetailsPanel.tsx
+      ProjectAIPanel.tsx
+      ProjectVersionHistoryPanel.tsx
+    hooks/
+      README.md
+    types/
+      README.md
+    utils/
+      aiApi.ts
+  ai/
+    prompt-engine/
+      README.md
+      handlePrompt.ts
+    codegen/
+      README.md
+    designgen/
+      README.md
+    assetgen/
+      README.md
+    qa/
+      README.md
+  core/
+    README.md
+  desktop/
+    README.md
+packages/
+  shared-ui/
+    index.ts
+  codegen/
+    index.ts
+  3d-engine/
+    index.ts
+docs/
+  VISION.md
+  STRUCTURE.md
+  MODULES.md
+scripts/
+  generate-structure.js
+```
